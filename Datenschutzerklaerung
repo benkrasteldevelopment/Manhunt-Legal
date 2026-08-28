@@ -1,0 +1,92 @@
+# Datenschutzerklärung – Manhunt
+
+Stand: [DATUM EINTRAGEN]
+
+## 1. Verantwortlicher
+
+Verantwortlich für die Datenverarbeitung im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
+
+[DEIN VOLLSTÄNDIGER NAME]
+[DEINE ANSCHRIFT]
+E-Mail: benkrasteldevelopment@gmail.com
+
+Da es sich bei Manhunt um ein privates Hobby-Projekt einer Einzelperson handelt, ist kein Datenschutzbeauftragter bestellt (nach Art. 37 DSGVO für diese Art von Verarbeitung nicht erforderlich).
+
+## 2. Worum es bei Manhunt geht
+
+Manhunt ist eine App zur Organisation eines Outdoor-Verfolgungsspiels ("Fangen spielen") mit Freunden. Um das Spiel zu ermöglichen, verarbeitet die App während einer aktiven Spielrunde Standortdaten der Teilnehmenden sowie einige weitere spielbezogene Daten. Diese Erklärung beschreibt, welche Daten das im Einzelnen sind, wozu sie verwendet werden und welche Rechte du dabei hast.
+
+## 3. Welche Daten werden verarbeitet
+
+### 3.1 Standortdaten (besonders sensibel)
+
+Während einer aktiven Spielrunde erfasst die App in regelmäßigen, vom Host festgelegten Abständen den GPS-Standort der Runner (Verfolgten) und überträgt ihn an die anderen Mitspieler der jeweiligen Runde. Zusätzlich können Runner bewusst eine falsche Position ("Fake-Ping") übermitteln, die dann anstelle des echten Standorts gespeichert wird.
+
+Diese Standortübertragung erfolgt **ausschließlich während einer aktiven Spielrunde**. Außerhalb eines laufenden Spiels findet keine Standorterfassung statt.
+
+Für die Standorterfassung im Hintergrund (auch bei gesperrtem Bildschirm) wird die iOS-Berechtigung "Immer erlauben" benötigt. Diese Berechtigung kann jederzeit in den iOS-Einstellungen widerrufen werden; die App funktioniert dann allerdings nicht mehr wie vorgesehen, da die Standortübertragung Kernbestandteil des Spiels ist.
+
+### 3.2 Weitere spielbezogene Daten
+
+- **Nickname**: der von dir selbst gewählte Anzeigename, sichtbar für die anderen Mitspieler deiner Runde
+- **Rolle** (Hunter/Runner) und **Fang-Status**
+- **Beitrittscode** der Spielrunde
+- **Joker-Nutzung** (Anzahl genutzter Fake-Pings bzw. Zwangs-Pings)
+- **Hilfe-Anfragen**, falls du den Hilfe-Button in der App nutzt
+
+### 3.3 Technische Kennung (anonyme Anmeldung)
+
+Beim ersten Start der App wird über den Dienst Supabase automatisch eine anonyme, gerätebezogene Kennung erzeugt. Diese Kennung enthält keine E-Mail-Adresse, keinen Namen und keine sonstigen direkt identifizierenden Angaben – sie dient ausschließlich dazu, innerhalb der Datenbank festzulegen, welche Daten zu welchem Spiel du sehen und bearbeiten darfst (z. B. dass nur Mitspieler deiner eigenen Runde deine Daten einsehen können).
+
+### 3.4 Daten, die ausschließlich lokal auf deinem Gerät bleiben
+
+Folgende Daten werden **nicht** an Server übertragen, sondern verbleiben ausschließlich lokal auf deinem Gerät: dein Standard-Nickname, deine Vibrations- und Kartenansicht-Einstellungen, sowie lokale Sitzungsdaten zur Wiederherstellung eines laufenden Spiels nach einem App-Neustart.
+
+## 4. Wozu die Daten verarbeitet werden
+
+Die Verarbeitung erfolgt ausschließlich, um das Spiel technisch zu ermöglichen: damit Hunter die Position der Runner sehen können, damit alle Mitspieler denselben Spielstand sehen, und damit Funktionen wie Joker, Hilfe-Anfragen oder die Spielfeldgrenze funktionieren.
+
+Es findet keine Auswertung zu Werbezwecken statt, keine Profilbildung, und keine Weitergabe an Dritte außerhalb der unter Punkt 5 genannten technischen Dienstleister.
+
+## 5. Wer die Daten sieht (Empfänger)
+
+### 5.1 Andere Mitspieler
+
+Innerhalb einer Spielrunde sehen die anderen Teilnehmenden je nach Spielverlauf deinen Nickname, deine Rolle sowie – falls du Runner bist – deine übertragenen Positionsdaten. Das ist für die Funktionsweise des Spiels notwendig und ergibt sich aus deiner freiwilligen Teilnahme.
+
+Personen, die **nicht** Mitglied deiner Spielrunde sind, haben technisch keinen Zugriff auf diese Daten (umgesetzt über Zugriffsregeln in der Datenbank).
+
+### 5.2 Auftragsverarbeiter
+
+Die Daten werden über den Dienst **Supabase** gespeichert und verarbeitet (Supabase Inc.). Die Datenbank für Manhunt ist auf Servern in der EU (Irland, Region eu-west-1) gehostet. Mit Supabase besteht bzw. wird ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO abgeschlossen.
+
+## 6. Rechtsgrundlage
+
+Die Verarbeitung erfolgt auf Grundlage deiner Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die du durch die aktive Teilnahme am Spiel (Erstellen oder Beitreten einer Runde) sowie durch die Erteilung der Standortberechtigung in iOS erteilst. Die Teilnahme ist in jedem Fall freiwillig.
+
+## 7. Speicherdauer
+
+Spiel- und Standortdaten bleiben derzeit auch nach Spielende in der Datenbank gespeichert, bis eine Löschung erfolgt. Eine automatische Löschung nach Spielende ist aktuell nicht implementiert. Du kannst jederzeit die Löschung deiner Daten beantragen (siehe Punkt 8).
+
+## 8. Deine Rechte
+
+Nach der DSGVO stehen dir insbesondere folgende Rechte zu:
+
+- **Auskunft** (Art. 15 DSGVO) über die zu dir gespeicherten Daten
+- **Berichtigung** (Art. 16 DSGVO) unrichtiger Daten
+- **Löschung** (Art. 17 DSGVO) deiner Daten
+- **Einschränkung der Verarbeitung** (Art. 18 DSGVO)
+- **Widerruf deiner Einwilligung** (Art. 7 Abs. 3 DSGVO) mit Wirkung für die Zukunft
+- **Beschwerde bei einer Aufsichtsbehörde** (Art. 77 DSGVO)
+
+Um eines dieser Rechte auszuüben, insbesondere eine Löschung zu beantragen, wende dich bitte per E-Mail an: **benkrasteldevelopment@gmail.com**
+
+Bitte gib bei einer Löschanfrage nach Möglichkeit den Beitrittscode der betroffenen Spielrunde und/oder deinen verwendeten Nickname an, damit deine Daten zugeordnet werden können.
+
+## 9. Freiwilligkeit
+
+Die Nutzung von Manhunt und die Erteilung der Standortberechtigung sind vollständig freiwillig. Ohne Standortfreigabe ist die Kernfunktion der App (Positionsübertragung während des Spiels) jedoch nicht nutzbar.
+
+## 10. Änderungen dieser Erklärung
+
+Diese Datenschutzerklärung kann bei Weiterentwicklung der App angepasst werden. Die jeweils aktuelle Version ist über die App bzw. unter [URL DER GEHOSTETEN VERSION] abrufbar.
