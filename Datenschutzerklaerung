@@ -1,14 +1,14 @@
 # Datenschutzerklärung – Manhunt
 
-Stand: 30.08.2026
+Stand: September 2026
 
 ## 1. Verantwortlicher
 
 Verantwortlich für die Datenverarbeitung im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
 
-Ben Krastel 
-c/o Christian Jahnke 
-Gulisastraße 93 
+Ben Krastel
+c/o Christian Jahnke
+Gulisastraße 93
 56072 Koblenz
 E-Mail: benkrasteldevelopment@gmail.com
 
@@ -42,7 +42,11 @@ Beim ersten Start der App wird über den Dienst Supabase automatisch eine anonym
 
 ### 3.4 Daten, die ausschließlich lokal auf deinem Gerät bleiben
 
-Folgende Daten werden **nicht** an Server übertragen, sondern verbleiben ausschließlich lokal auf deinem Gerät: dein Standard-Nickname, deine Vibrations- und Kartenansicht-Einstellungen, sowie lokale Sitzungsdaten zur Wiederherstellung eines laufenden Spiels nach einem App-Neustart.
+Folgende Daten werden **nicht** an Server übertragen, sondern verbleiben ausschließlich lokal auf deinem Gerät: dein Standard-Nickname, deine Vibrations-, Ton- und Kartenansicht-Einstellungen, die zuletzt verwendeten Rundeneinstellungen, sowie lokale Sitzungsdaten zur Wiederherstellung eines laufenden Spiels nach einem App-Neustart.
+
+### 3.5 Vorschläge und Feedback
+
+Wenn du über die Funktion "Vorschlag einreichen" freiwillig eine Nachricht sendest, werden der von dir eingegebene Text sowie dein zuletzt verwendeter Nickname gespeichert. Diese Angaben dienen ausschließlich der Verbesserung der App. Die Übermittlung ist freiwillig – du kannst die App vollständig nutzen, ohne diese Funktion zu verwenden.
 
 ## 4. Wozu die Daten verarbeitet werden
 
@@ -62,13 +66,23 @@ Personen, die **nicht** Mitglied deiner Spielrunde sind, haben technisch keinen 
 
 Die Daten werden über den Dienst **Supabase** gespeichert und verarbeitet (Supabase Inc.). Die Datenbank für Manhunt ist auf Servern in der EU (Irland, Region eu-west-1) gehostet. Mit Supabase besteht bzw. wird ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO abgeschlossen.
 
+### 5.3 Vorschläge
+
+Eingereichte Vorschläge sind ausschließlich für den unter Punkt 1 genannten Verantwortlichen einsehbar, nicht für andere Nutzer der App.
+
 ## 6. Rechtsgrundlage
 
-Die Verarbeitung erfolgt auf Grundlage deiner Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die du durch die aktive Teilnahme am Spiel (Erstellen oder Beitreten einer Runde) sowie durch die Erteilung der Standortberechtigung in iOS erteilst. Die Teilnahme ist in jedem Fall freiwillig.
+Die Verarbeitung der Spiel- und Standortdaten erfolgt auf Grundlage deiner Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die du durch die aktive Teilnahme am Spiel (Erstellen oder Beitreten einer Runde) sowie durch die Erteilung der Standortberechtigung in iOS erteilst. Die Teilnahme ist in jedem Fall freiwillig.
+
+Die Verarbeitung freiwillig eingereichter Vorschläge erfolgt auf Grundlage des berechtigten Interesses an der Verbesserung der App (Art. 6 Abs. 1 lit. f DSGVO) bzw. deiner freiwilligen Übermittlung.
 
 ## 7. Speicherdauer
 
-Spiel- und Standortdaten bleiben derzeit auch nach Spielende in der Datenbank gespeichert, bis eine Löschung erfolgt. Eine automatische Löschung nach Spielende ist aktuell nicht implementiert. Du kannst jederzeit die Löschung deiner Daten beantragen (siehe Punkt 8).
+Spiel- und Standortdaten werden automatisch gelöscht, sobald der Host der jeweiligen Runde den Spielende-Bildschirm erreicht (unabhängig davon, ob das Spiel durch Zeitablauf, Fang aller Runner oder Abbruch endet). Verbleibt der Host aus technischen Gründen (z. B. Verbindungsabbruch vor Abschluss der Löschung) länger offline, werden die Daten spätestens beim nächsten Öffnen der App auf dem Host-Gerät gelöscht.
+
+Eingereichte Vorschläge werden hiervon abweichend dauerhaft gespeichert, da sie zur Auswertung und Weiterentwicklung der App benötigt werden. Du kannst deren Löschung jederzeit formlos beantragen.
+
+Unabhängig davon kannst du jederzeit die Löschung deiner Daten beantragen (siehe Punkt 8).
 
 ## 8. Deine Rechte
 
@@ -78,6 +92,7 @@ Nach der DSGVO stehen dir insbesondere folgende Rechte zu:
 - **Berichtigung** (Art. 16 DSGVO) unrichtiger Daten
 - **Löschung** (Art. 17 DSGVO) deiner Daten
 - **Einschränkung der Verarbeitung** (Art. 18 DSGVO)
+- **Widerspruch** (Art. 21 DSGVO) gegen Verarbeitungen auf Grundlage berechtigten Interesses
 - **Widerruf deiner Einwilligung** (Art. 7 Abs. 3 DSGVO) mit Wirkung für die Zukunft
 - **Beschwerde bei einer Aufsichtsbehörde** (Art. 77 DSGVO)
 
@@ -91,4 +106,4 @@ Die Nutzung von Manhunt und die Erteilung der Standortberechtigung sind vollstä
 
 ## 10. Änderungen dieser Erklärung
 
-Diese Datenschutzerklärung kann bei Weiterentwicklung der App angepasst werden. Die jeweils aktuelle Version ist über die App bzw. unter [URL DER GEHOSTETEN VERSION] abrufbar.
+Diese Datenschutzerklärung kann bei Weiterentwicklung der App angepasst werden. Die jeweils aktuelle Version ist über die App bzw. unter https://benkrasteldevelopment.github.io/Manhunt-Legal/ abrufbar.
