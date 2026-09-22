@@ -1,0 +1,110 @@
+# Privacy Policy – Manhunt
+
+*Last updated: September 2026*
+
+[🇩🇪 Deutsche Version](./)
+
+> This is a translation of the German privacy policy provided for convenience. In case of any discrepancies, the German version shall prevail.
+
+## 1. Data Controller
+
+The party responsible for data processing within the meaning of the General Data Protection Regulation (GDPR) is:
+
+Ben Krastel
+c/o Christian Jahnke
+Gulisastraße 93
+56072 Koblenz
+Germany
+Email: benkrasteldevelopment@gmail.com
+
+Since Manhunt is a private hobby project run by an individual, no data protection officer has been appointed (not required under Art. 37 GDPR for this type of processing).
+
+## 2. What Manhunt is about
+
+Manhunt is an app for organizing an outdoor chasing game ("tag") with friends. To enable the game, the app processes participants' location data during an active round, along with some other game-related data.
+
+## 3. What data is processed
+
+### 3.1 Location data (particularly sensitive)
+
+During an active round, the app captures the GPS location of the runners (the players being chased) at regular intervals set by the host and transmits it to the other players in that round. Runners can also deliberately transmit a false position ("fake ping").
+
+This location transmission only takes place during an active round. The iOS "Always Allow" permission is required for capturing location in the background. This permission can be revoked at any time in iOS Settings.
+
+### 3.2 Other game-related data
+
+Nickname, role (Hunter/Runner), caught status, the round's join code, wildcard usage, help requests.
+
+### 3.3 Technical identifier
+
+On first launch, an anonymous, device-related identifier is automatically generated via Supabase – without email, name, or any other directly identifying information.
+
+### 3.4 Purely local data
+
+Your default nickname, language, vibration and map view settings, and local session data remain exclusively on your device.
+
+### 3.5 Suggestions and feedback
+
+If you voluntarily send a message via the "Submit a suggestion" feature, the text you enter and your most recently used nickname are stored. This information is used exclusively to improve the app. Submitting it is voluntary – you can use the app fully without using this feature.
+
+## 4. Why the data is processed
+
+Processing takes place solely to make the game technically possible. There is no evaluation for advertising purposes, no profiling, and no disclosure to third parties beyond the technical service provider named below.
+
+## 5. Who sees the data
+
+**Other players:** Within a round, the other participants see your nickname, your role and – if you are a runner – your location data. People outside your round have no technical access to it.
+
+**Data processor:** The data is stored via the service Supabase (Supabase Inc.), hosted on servers in the EU (Ireland, region eu-west-1). A data processing agreement pursuant to Art. 28 GDPR is or will be in place.
+
+**Suggestions:** Submitted suggestions are only visible to the data controller (see section 1), not to other users.
+
+## 6. Legal basis
+
+Game and location data is processed on the basis of your consent (Art. 6 (1)(a) GDPR), which you give by actively participating and by granting the location permission. Participation is voluntary in every case.
+
+Voluntarily submitted suggestions are processed on the basis of the legitimate interest in improving the app (Art. 6 (1)(f) GDPR) and your voluntary submission.
+
+## 7. Storage period
+
+Game and location data is automatically deleted as soon as the host of the respective round leaves the game-end screen (regardless of whether the game ended because time ran out, all runners were caught, or it was aborted). If the host remains offline for technical reasons (e.g. a lost connection before deletion completes), the data is deleted at the latest the next time the app is opened on the host's device.
+
+Submitted suggestions, by contrast, are stored permanently, as they are needed to evaluate and further develop the app. You can request their deletion informally at any time.
+
+Regardless of the above, you can request deletion of your data at any time (see section 8).
+
+## 8. Your rights
+
+Under the GDPR you have, in particular, the following rights: access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), objection (Art. 21), withdrawal of your consent (Art. 7 (3)), and the right to lodge a complaint with a supervisory authority (Art. 77).
+
+To exercise any of these rights, in particular to request deletion, please contact: benkrasteldevelopment@gmail.com
+
+When requesting deletion, please include, if possible, the join code of the affected round and/or your nickname.
+
+## 9. Voluntary nature
+
+Using Manhunt and granting the location permission are entirely voluntary. However, the app's core functionality cannot be used without location access.
+
+## 10. Changes to this policy
+
+This privacy policy may be updated as the app is further developed.
+
+---
+
+# Legal Notice
+
+*Information pursuant to § 5 DDG (German Digital Services Act)*
+
+Ben Krastel
+c/o Christian Jahnke
+Gulisastraße 93
+56072 Koblenz
+Germany
+
+**Contact**
+Email: benkrasteldevelopment@gmail.com
+
+Manhunt is a private, non-commercial hobby project run by an individual. There is no business registration, no commercial register entry and no VAT identification number.
+
+**Responsible for content pursuant to § 18 (2) MStV (German Interstate Media Treaty)**
+Ben Krastel (address as above)
