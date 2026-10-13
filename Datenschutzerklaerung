@@ -1,6 +1,6 @@
 # Datenschutzerklärung – Manhunt
 
-Stand: September 2026
+Stand: Oktober 2026
 
 ## 1. Verantwortlicher
 
@@ -79,7 +79,7 @@ Die Verarbeitung freiwillig eingereichter Vorschläge erfolgt auf Grundlage des 
 ## 7. Speicherdauer
 
 Spiel- und Standortdaten werden automatisch gelöscht, sobald der Host der jeweiligen Runde den Spielende-Bildschirm erreicht (unabhängig davon, ob das Spiel durch Zeitablauf, Fang aller Runner oder Abbruch endet). Verbleibt der Host aus technischen Gründen (z. B. Verbindungsabbruch vor Abschluss der Löschung) länger offline, werden die Daten spätestens beim nächsten Öffnen der App auf dem Host-Gerät gelöscht.
-
+Runden, die nicht gestartet oder nicht ordnungsgemäß beendet wurden (z. B. verlassene Lobbys), werden spätestens 7 Tage nach ihrer Erstellung automatisch gelöscht.
 Eingereichte Vorschläge werden hiervon abweichend dauerhaft gespeichert, da sie zur Auswertung und Weiterentwicklung der App benötigt werden. Du kannst deren Löschung jederzeit formlos beantragen.
 
 Unabhängig davon kannst du jederzeit die Löschung deiner Daten beantragen (siehe Punkt 8).
