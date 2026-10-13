@@ -1,6 +1,6 @@
 # Privacy Policy – Manhunt
 
-*Last updated: September 2026*
+*Last updated: October 2026*
 
 [🇩🇪 Deutsche Version](./)
 
@@ -68,6 +68,8 @@ Voluntarily submitted suggestions are processed on the basis of the legitimate i
 ## 7. Storage period
 
 Game and location data is automatically deleted as soon as the host of the respective round leaves the game-end screen (regardless of whether the game ended because time ran out, all runners were caught, or it was aborted). If the host remains offline for technical reasons (e.g. a lost connection before deletion completes), the data is deleted at the latest the next time the app is opened on the host's device.
+
+Rounds that were never started or not properly ended (e.g. abandoned lobbies) are automatically deleted no later than 7 days after creation.
 
 Submitted suggestions, by contrast, are stored permanently, as they are needed to evaluate and further develop the app. You can request their deletion informally at any time.
 
