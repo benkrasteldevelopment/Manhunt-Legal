@@ -2,19 +2,14 @@
 
 *Last updated: October 2026*
 
-[🇩🇪 Deutsche Version](./)
-
-> This is a translation of the German privacy policy provided for convenience. In case of any discrepancies, the German version shall prevail.
-
 ## 1. Data Controller
 
 The party responsible for data processing within the meaning of the General Data Protection Regulation (GDPR) is:
 
-Ben Krastel
-c/o Christian Jahnke
-Gulisastraße 93
-56072 Koblenz
-Germany
+Ben Krastel  
+c/o Christian Jahnke  
+Gulisastraße 93  
+56072 Koblenz, Germany  
 Email: benkrasteldevelopment@gmail.com
 
 Since Manhunt is a private hobby project run by an individual, no data protection officer has been appointed (not required under Art. 37 GDPR for this type of processing).
@@ -25,61 +20,71 @@ Manhunt is an app for organizing an outdoor chasing game ("tag") with friends. T
 
 ## 3. What data is processed
 
-### 3.1 Location data (particularly sensitive)
+**3.1 Location data (particularly sensitive)**
 
-During an active round, the app captures the GPS location of the runners (the players being chased) at regular intervals set by the host and transmits it to the other players in that round. Runners can also deliberately transmit a false position ("fake ping").
+During an active round, the app captures the GPS location of the runners (those being chased) at regular intervals set by the host and transmits it to the other players in that round. Runners can also deliberately transmit a false position ('fake ping').
 
-This location transmission only takes place during an active round. The iOS "Always Allow" permission is required for capturing location in the background. This permission can be revoked at any time in iOS Settings.
+Other transmissions during a round: joker pings requested by a hunter; in the "hotspot" feature, immediately when entering a hotspot set by the host and then every 2 minutes while a runner stays inside; every 10 seconds while a runner is outside the game boundary set by the host. If a runner uses the "locate players" joker, every other player (including hunters) transmits their current location once to that runner, who sees it as a one-time snapshot; the other players are notified.
 
-### 3.2 Other game-related data
+Hunter devices capture their location in the background only locally on the device, to keep the app active (e.g. for notifications); it is only transmitted when the "locate players" joker is used.
 
-Nickname, role (Hunter/Runner), caught status, the round's join code, wildcard usage, help requests.
+This location transmission only happens during an active round. The iOS 'Always Allow' permission is required for background location capture. This can be revoked at any time in iOS Settings.
 
-### 3.3 Technical identifier
+**3.2 Other game-related data**
 
-On first launch, an anonymous, device-related identifier is automatically generated via Supabase – without email, name, or any other directly identifying information.
+Nickname, role (Hunter/Runner), caught status, the round's join code, joker usage, help requests, game boundary and hotspots set by the host, and presence in a hotspot.
 
-### 3.4 Purely local data
+**3.3 Technical identifier**
 
-Your default nickname, language, vibration and map view settings, and local session data remain exclusively on your device.
+On first launch, Supabase automatically generates an anonymous, device-related identifier – without email, name, or any other directly identifying information.
 
-### 3.5 Suggestions and feedback
+**3.4 Purely local data**
 
-If you voluntarily send a message via the "Submit a suggestion" feature, the text you enter and your most recently used nickname are stored. This information is used exclusively to improve the app. Submitting it is voluntary – you can use the app fully without using this feature.
+Your default nickname, language, units, vibration and map view settings, the status of your consent to this policy, your remaining time budget outside the game boundary, and local session data remain exclusively on your device.
+
+**3.5 Suggestions and feedback**
+
+If you voluntarily send a message via the 'Submit a suggestion' feature, the text you enter and your most recently used nickname are stored. This information is used exclusively to improve the app. Submitting it is voluntary – you can use the app fully without using this feature.
 
 ## 4. Why the data is processed
 
-Processing takes place solely to make the game technically possible. There is no evaluation for advertising purposes, no profiling, and no disclosure to third parties beyond the technical service provider named below.
+Processing takes place solely to make the game technically possible. There is no evaluation for advertising purposes, no profiling, and no disclosure to third parties beyond the technical service providers named below.
 
 ## 5. Who sees the data
 
-**Other players:** Within a round, the other participants see your nickname, your role and – if you are a runner – your location data. People outside your round have no technical access to it.
+**Other players**
 
-**Data processor:** The data is stored via the service Supabase (Supabase Inc.), hosted on servers in the EU (Ireland, region eu-west-1). A data processing agreement pursuant to Art. 28 GDPR is or will be in place.
+Within a round, the other participants see your nickname, your role, and – if you're a runner – your location data. Hunter locations are only visible if a runner uses the "locate players" joker (one-time snapshot). People outside your round have no technical access to it.
 
-**Suggestions:** Submitted suggestions are only visible to the data controller (see section 1), not to other users.
+**Data processor**
+
+The data is stored via the Supabase service (Supabase Inc.), hosted on servers in the EU (Ireland, region eu-west-1). A data processing agreement pursuant to Art. 28 GDPR is or will be in place.
+
+**Suggestions**
+
+Submitted suggestions are only visible to the data controller (see section 1), not to other users.
 
 ## 6. Legal basis
 
-Game and location data is processed on the basis of your consent (Art. 6 (1)(a) GDPR), which you give by actively participating and by granting the location permission. Participation is voluntary in every case.
+Game and location data is processed based on your consent (Art. 6 (1)(a) GDPR), which you give by explicitly agreeing when you first start the app (or after material changes to this policy) and by granting the location permission. Participation is voluntary in every case.
 
-Voluntarily submitted suggestions are processed on the basis of the legitimate interest in improving the app (Art. 6 (1)(f) GDPR) and your voluntary submission.
+Voluntarily submitted suggestions are processed based on the legitimate interest in improving the app (Art. 6 (1)(f) GDPR) and/or your voluntary submission.
 
 ## 7. Storage period
 
-Game and location data is automatically deleted as soon as the host of the respective round leaves the game-end screen (regardless of whether the game ended because time ran out, all runners were caught, or it was aborted). If the host remains offline for technical reasons (e.g. a lost connection before deletion completes), the data is deleted at the latest the next time the app is opened on the host's device.
+Game and location data (including hotspot and location-request data) is automatically deleted as soon as the host of the respective round leaves the game-end screen (regardless of whether the game ends due to time running out, all runners being caught, or an abort). If the host remains offline for a longer period for technical reasons (e.g. a connection drop before deletion completes), the data is deleted at the latest the next time the app is opened on the host's device.
+
+Submitted suggestions are, by contrast, stored permanently, as they are needed to evaluate and further develop the app. You can request their deletion informally at any time.
+
+Regardless of this, you can request deletion of your data at any time (see section 8).
 
 Rounds that were never started or not properly ended (e.g. abandoned lobbies) are automatically deleted no later than 7 days after creation.
-
-Submitted suggestions, by contrast, are stored permanently, as they are needed to evaluate and further develop the app. You can request their deletion informally at any time.
-
-Regardless of the above, you can request deletion of your data at any time (see section 8).
 
 ## 8. Your rights
 
 Under the GDPR you have, in particular, the following rights: access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), objection (Art. 21), withdrawal of your consent (Art. 7 (3)), and the right to lodge a complaint with a supervisory authority (Art. 77).
 
-To exercise any of these rights, in particular to request deletion, please contact: benkrasteldevelopment@gmail.com
+To exercise any of these rights, especially to request deletion, please contact: benkrasteldevelopment@gmail.com
 
 When requesting deletion, please include, if possible, the join code of the affected round and/or your nickname.
 
@@ -89,24 +94,4 @@ Using Manhunt and granting the location permission are entirely voluntary. Howev
 
 ## 10. Changes to this policy
 
-This privacy policy may be updated as the app is further developed.
-
----
-
-# Legal Notice
-
-*Information pursuant to § 5 DDG (German Digital Services Act)*
-
-Ben Krastel
-c/o Christian Jahnke
-Gulisastraße 93
-56072 Koblenz
-Germany
-
-**Contact**
-Email: benkrasteldevelopment@gmail.com
-
-Manhunt is a private, non-commercial hobby project run by an individual. There is no business registration, no commercial register entry and no VAT identification number.
-
-**Responsible for content pursuant to § 18 (2) MStV (German Interstate Media Treaty)**
-Ben Krastel (address as above)
+This privacy policy may be updated as the app is further developed. In case of material changes, we will ask for your consent again.
