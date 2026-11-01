@@ -1,86 +1,96 @@
-# Datenschutzerklärung – Manhunt
+Datenschutzerklärung – Manhunt
 
-*Stand: Oktober 2026*
+Stand: November 2026 – gilt ab App-Version 1.4. Einzelne hier beschriebene Funktionen (z. B. Manhunt Plus, Peilung, Funkstille, Revanche) gibt es erst ab dieser Version; in älteren Versionen werden die entsprechenden Daten nicht verarbeitet.
 
-## 1. Verantwortlicher
+1. Verantwortlicher
 
 Verantwortlich für die Datenverarbeitung im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
 
-Ben Krastel  
-c/o Christian Jahnke  
-Gulisastraße 93  
-56072 Koblenz  
+Ben Luca Krastel – Krastel Development (Einzelunternehmen)
+c/o Christian Jahnke
+Gulisastraße 93
+56072 Koblenz
 E-Mail: benkrasteldevelopment@gmail.com
 
-Da es sich bei Manhunt um ein privates Hobby-Projekt einer Einzelperson handelt, ist kein Datenschutzbeauftragter bestellt (nach Art. 37 DSGVO für diese Art von Verarbeitung nicht erforderlich).
+Ein Datenschutzbeauftragter ist nicht bestellt, da die gesetzlichen Voraussetzungen dafür (Art. 37 DSGVO, § 38 BDSG) nicht vorliegen.
 
-## 2. Worum es bei Manhunt geht
+2. Worum es bei Manhunt geht
 
 Manhunt ist eine App zur Organisation eines Outdoor-Verfolgungsspiels ("Fangen spielen") mit Freunden. Um das Spiel zu ermöglichen, verarbeitet die App während einer aktiven Spielrunde Standortdaten der Teilnehmenden sowie einige weitere spielbezogene Daten.
 
-## 3. Welche Daten werden verarbeitet
+3. Welche Daten werden verarbeitet
 
-**3.1 Standortdaten (besonders sensibel)**
+3.1 Standortdaten (besonders sensibel)
 
 Während einer aktiven Spielrunde erfasst die App in regelmäßigen, vom Host festgelegten Abständen den GPS-Standort der Runner (Verfolgten) und überträgt ihn an die anderen Mitspieler der jeweiligen Runde. Zusätzlich können Runner bewusst eine falsche Position ('Fake-Ping') übermitteln.
 
-Weitere Übertragungen während einer Runde: Joker-Pings auf Anforderung eines Hunters; im Spielmodus mit „Hotspots“ sofort beim Betreten eines vom Host festgelegten Hotspots und danach alle 2 Minuten, solange sich ein Runner darin befindet; alle 10 Sekunden, solange sich ein Runner außerhalb der vom Host festgelegten Spielfeldgrenze befindet. Setzt ein Runner den Joker „Spieler orten“ ein, übermittelt jeder Mitspieler (auch Hunter) einmalig seinen aktuellen Standort an diesen Runner, der ihn als einmalige Momentaufnahme sieht; die Mitspieler werden darüber benachrichtigt.
+Weitere Übertragungen während einer Runde: Joker-Pings auf Anforderung eines Hunters; im Spielmodus mit „Hotspots“ sofort beim Betreten eines vom Host festgelegten Hotspots und danach alle 2 Minuten, solange sich ein Runner darin befindet; alle 10 Sekunden, solange sich ein Runner außerhalb der vom Host festgelegten Spielfeldgrenze befindet. Setzt ein Runner den Joker „Spieler orten“ ein, übermittelt jeder Mitspieler (auch Hunter) einmalig seinen aktuellen Standort an diesen Runner, der ihn als einmalige Momentaufnahme sieht; die Mitspieler werden darüber benachrichtigt. Setzt ein Hunter den Joker „Peilung“ ein, übermittelt das Gerät des Runners statt des genauen Standorts einen zufällig verschobenen Punkt; die Hunter sehen nur einen Kreis mit 150 m Radius.
 
 Hunter-Geräte erfassen ihren Standort im Hintergrund ausschließlich lokal auf dem Gerät, um die App aktiv zu halten (z. B. für Benachrichtigungen); übertragen wird er nur im Fall des Jokers „Spieler orten“.
 
 Diese Standortübertragung erfolgt ausschließlich während einer aktiven Spielrunde. Für die Standorterfassung im Hintergrund wird die iOS-Berechtigung 'Immer erlauben' benötigt. Diese kann jederzeit in den iOS-Einstellungen widerrufen werden.
 
-**3.2 Weitere spielbezogene Daten**
+3.2 Weitere spielbezogene Daten
 
-Nickname, Rolle (Hunter/Runner), Fang-Status, Beitrittscode der Runde, Joker-Nutzung, Hilfe-Anfragen, vom Host festgelegte Spielfeldgrenze und Hotspots sowie die Anwesenheit in einem Hotspot.
+Nickname, Rolle (Hunter/Runner), Fang-Status, Beitrittscode der Runde, Joker-Nutzung, Hilfe-Anfragen, vom Host festgelegte Spielfeldgrenze und Hotspots, die Anwesenheit in einem Hotspot, der Zeitpunkt einer „Funkstille“ sowie die Versionsnummer der App. Die Versionsnummer dient dazu, Mitspieler mit veralteter Version zu warnen, und wird außerdem in zusammengefasster Form ausgewertet (z. B. „wie viele Runden werden noch mit älteren Versionen gespielt“), um zu entscheiden, wann ältere Versionen nicht mehr unterstützt werden müssen. Eine Auswertung einzelner Personen findet dabei nicht statt.
 
-**3.3 Technische Kennung**
+3.3 Technische Kennung
 
 Beim ersten Start wird über Supabase automatisch eine anonyme, gerätebezogene Kennung erzeugt – ohne E-Mail, Namen oder sonstige direkt identifizierende Angaben.
 
-**3.4 Rein lokale Daten**
+3.4 Rein lokale Daten
 
-Standard-Nickname, Sprach-, Einheiten-, Vibrations- und Kartenansicht-Einstellungen, der Status deiner Zustimmung zu dieser Erklärung, das verbleibende Zeitbudget außerhalb der Spielfeldgrenze sowie lokale Sitzungsdaten verbleiben ausschließlich auf deinem Gerät.
+Standard-Nickname, Sprach-, Einheiten-, Vibrations-, Kartenansicht- und Design-Einstellungen, der Status deiner Zustimmung zu dieser Erklärung, das verbleibende Zeitbudget außerhalb der Spielfeldgrenze, lokale Sitzungsdaten, gespeicherte Spielvorlagen (Manhunt Plus, inkl. der darin festgelegten Grenzen und Hotspots), deine persönliche Spielstatistik sowie die Einstellungen für Sprachansagen und App-Icon verbleiben ausschließlich auf deinem Gerät. Sprachansagen werden von iOS direkt auf dem Gerät erzeugt. Die Ergebnis-Karte (auf Wunsch mit der Route der Runner) wird lokal als Bild erstellt und nur geteilt, wenn du selbst auf „Teilen“ tippst.
 
-**3.5 Vorschläge und Feedback**
+3.5 Vorschläge und Feedback
 
 Wenn du über die Funktion 'Vorschlag einreichen' freiwillig eine Nachricht sendest, werden der von dir eingegebene Text sowie dein zuletzt verwendeter Nickname gespeichert. Diese Angaben dienen ausschließlich der Verbesserung der App. Die Übermittlung ist freiwillig – du kannst die App vollständig nutzen, ohne diese Funktion zu verwenden.
 
-## 4. Wozu die Daten verarbeitet werden
+3.6 In-App-Käufe (Trinkgeld, Manhunt Plus)
 
-Die Verarbeitung erfolgt ausschließlich, um das Spiel technisch zu ermöglichen. Es findet keine Auswertung zu Werbezwecken, keine Profilbildung und keine Weitergabe an Dritte außerhalb der unten genannten technischen Dienstleister statt.
+Wenn du freiwillig Trinkgeld gibst oder Manhunt Plus kaufst, wird die Zahlung ausschließlich von Apple abgewickelt. Wir erhalten keine Zahlungs- oder Kontodaten, höchstens anonyme Verkaufsstatistiken von Apple. Ob Manhunt Plus freigeschaltet ist, prüft die App nur lokal auf deinem Gerät über Apple; diese Information wird nicht an unseren Server übertragen.
 
-## 5. Wer die Daten sieht
+3.7 Kartendarstellung
 
-**Andere Mitspieler**
+Für die Karten nutzt die App Apple Karten (MapKit). Dabei lädt dein Gerät Kartenausschnitte direkt von Apple. Hierfür gilt die Datenschutzerklärung von Apple. Wir erhalten dabei keine Daten.
+
+4. Wozu die Daten verarbeitet werden
+
+Die Verarbeitung erfolgt ausschließlich, um das Spiel technisch zu ermöglichen und die App zu betreiben und zu verbessern (siehe 3.2 und 3.5). Es findet keine Auswertung zu Werbezwecken, keine Profilbildung und keine Weitergabe an Dritte außerhalb der unten genannten technischen Dienstleister statt. Die App enthält keine Werbung und keine Tracking- oder Analyse-Dienste von Drittanbietern.
+
+5. Wer die Daten sieht
+
+Andere Mitspieler
 
 Innerhalb einer Spielrunde sehen die anderen Teilnehmenden deinen Nickname, deine Rolle sowie – falls du Runner bist – deine Positionsdaten. Hunter-Standorte sind nur sichtbar, wenn ein Runner den Joker „Spieler orten“ einsetzt (einmalige Momentaufnahme). Personen außerhalb deiner Spielrunde haben technisch keinen Zugriff darauf.
 
-**Auftragsverarbeiter**
+Auftragsverarbeiter
 
-Die Daten werden über den Dienst Supabase (Supabase Inc.) gespeichert, gehostet auf Servern in der EU (Irland, Region eu-west-1). Es besteht bzw. wird ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO abgeschlossen.
+Die Daten werden über den Dienst Supabase (Supabase Inc.) gespeichert, gehostet auf Servern in der EU (Irland, Region eu-west-1). Mit Supabase besteht ein Auftragsverarbeitungsvertrag gemäß Art. 28 DSGVO.
 
-**Vorschläge**
+Supabase Inc. hat seinen Sitz in den USA. Auch wenn die Daten in der EU gespeichert werden, kann ein Zugriff aus den USA (z. B. im Rahmen von Wartung oder Support) nicht vollständig ausgeschlossen werden. Für diesen Fall sind die Standardvertragsklauseln der EU-Kommission (Art. 46 Abs. 2 lit. c DSGVO) Bestandteil des Auftragsverarbeitungsvertrags.
+
+Vorschläge
 
 Eingereichte Vorschläge sind ausschließlich für den Verantwortlichen (siehe Punkt 1) einsehbar, nicht für andere Nutzer.
 
-## 6. Rechtsgrundlage
+6. Rechtsgrundlage
 
 Die Verarbeitung der Spiel- und Standortdaten erfolgt auf Grundlage deiner Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die du durch deine ausdrückliche Zustimmung beim ersten Start der App (bzw. nach wesentlichen Änderungen dieser Erklärung) sowie durch die Erteilung der Standortberechtigung erteilst. Die Teilnahme ist in jedem Fall freiwillig.
 
-Die Verarbeitung freiwillig eingereichter Vorschläge erfolgt auf Grundlage des berechtigten Interesses an der Verbesserung der App (Art. 6 Abs. 1 lit. f DSGVO) bzw. deiner freiwilligen Übermittlung.
+Die Verarbeitung freiwillig eingereichter Vorschläge sowie die zusammengefasste Auswertung der App-Versionen (siehe 3.2) erfolgen auf Grundlage des berechtigten Interesses am sicheren Betrieb und an der Verbesserung der App (Art. 6 Abs. 1 lit. f DSGVO).
 
-## 7. Speicherdauer
+7. Speicherdauer
 
-Spiel- und Standortdaten (einschließlich Daten zu Hotspots und Standortabfragen) werden automatisch gelöscht, sobald der Host der jeweiligen Runde den Spielende-Bildschirm verlässt (unabhängig davon, ob das Spiel durch Zeitablauf, Fang aller Runner oder Abbruch endet). Verbleibt der Host aus technischen Gründen (z. B. Verbindungsabbruch vor Abschluss der Löschung) länger offline, werden die Daten spätestens beim nächsten Öffnen der App auf dem Host-Gerät gelöscht.
+Spiel- und Standortdaten (einschließlich Daten zu Hotspots und Standortabfragen) werden automatisch gelöscht, sobald der Host der jeweiligen Runde den Spielende-Bildschirm verlässt (unabhängig davon, ob das Spiel durch Zeitablauf, Fang aller Runner oder Abbruch endet). Verbleibt der Host aus technischen Gründen (z. B. Verbindungsabbruch vor Abschluss der Löschung) länger offline, werden die Daten spätestens beim nächsten Öffnen der App auf dem Host-Gerät gelöscht. Startet der Host nach Spielende eine Revanche, wird die alte Runde etwa 2 Minuten später gelöscht, damit die Mitspieler in die neue Runde wechseln können (spätestens beim nächsten Öffnen der App auf dem Host-Gerät).
+
+Runden, die nicht gestartet wurden (Lobbys), werden spätestens 24 Stunden nach ihrer Erstellung automatisch gelöscht, alle übrigen nicht ordnungsgemäß beendeten Runden spätestens 7 Tage nach ihrer Erstellung.
 
 Eingereichte Vorschläge werden hiervon abweichend dauerhaft gespeichert, da sie zur Auswertung und Weiterentwicklung der App benötigt werden. Du kannst deren Löschung jederzeit formlos beantragen.
 
 Unabhängig davon kannst du jederzeit die Löschung deiner Daten beantragen (siehe Punkt 8).
 
-Runden, die nicht gestartet oder nicht ordnungsgemäß beendet wurden (z. B. verlassene Lobbys), werden spätestens 7 Tage nach ihrer Erstellung automatisch gelöscht.
-
-## 8. Deine Rechte
+8. Deine Rechte
 
 Nach der DSGVO stehen dir insbesondere folgende Rechte zu: Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Widerspruch (Art. 21), Widerruf deiner Einwilligung (Art. 7 Abs. 3) sowie Beschwerde bei einer Aufsichtsbehörde (Art. 77).
 
@@ -88,10 +98,14 @@ Um eines dieser Rechte auszuüben, insbesondere eine Löschung zu beantragen, we
 
 Bitte gib bei einer Löschanfrage nach Möglichkeit den Beitrittscode der betroffenen Spielrunde und/oder deinen Nickname an.
 
-## 9. Freiwilligkeit
+9. Kinder und Jugendliche
+
+Manhunt richtet sich nicht an Kinder unter 13 Jahren. Wenn du jünger als 16 Jahre bist, frage bitte vor der Nutzung deine Eltern bzw. Erziehungsberechtigten, da deine Einwilligung in die Verarbeitung deiner Standortdaten in diesem Fall ihre Zustimmung erfordert (Art. 8 DSGVO).
+
+10. Freiwilligkeit
 
 Die Nutzung von Manhunt und die Erteilung der Standortberechtigung sind vollständig freiwillig. Ohne Standortfreigabe ist die Kernfunktion der App jedoch nicht nutzbar.
 
-## 10. Änderungen dieser Erklärung
+11. Änderungen dieser Erklärung
 
 Diese Datenschutzerklärung kann bei Weiterentwicklung der App angepasst werden. Bei wesentlichen Änderungen holen wir deine Zustimmung erneut ein.
